@@ -6,7 +6,6 @@ class Shoe
     @brand = brand
     BRANDS << brand if BRANDS.any?{ |b| b != brand}
   end
-  end
 
   def cobble
     self.condition = "new"
