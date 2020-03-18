@@ -4,7 +4,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    BRANDS << brand if BRANDS.select{
+    BRANDS << brand if BRANDS.select{ |b| b
   end
 
   def cobble
