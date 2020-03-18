@@ -7,6 +7,7 @@ class Shoe
     if BRANDS.any{ |b| b != brand}
     BRANDS << brand
   end
+  end
 
   def cobble
     self.condition = "new"
